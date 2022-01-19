@@ -1,4 +1,13 @@
 @charset "utf-8";
+
+@font-face {
+    font-family: "pasion" ;
+    src: url('/fontes/Passion_One/PassionOne-Bold.ttf');
+}
+@font-face {
+    font-family: 's';
+    src: url('/fontes/Sriracha/Sriracha-Regular.ttf');
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -14,8 +23,10 @@ header{
 }
 
 header > h1{
+    font-family: 'pasion',Arial, Helvetica, sans-serif;
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vW;
 }
 header > p{
     padding-bottom: 50px;
@@ -29,10 +40,12 @@ header a:hover footer a:hover{
     text-decoration: underline;
 }
 section{
+    font-family: 's', Arial, Helvetica, sans-serif;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding: 30px;
+    font-size: 3vW;
 }
 section.normal{
     background-color: black;
@@ -45,6 +58,7 @@ section.imagem{
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.281);
     width: 400px;
+    
 }
 footer{
     background-color: black;
