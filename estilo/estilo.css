@@ -26,7 +26,7 @@ header > h1{
     font-family: 'pasion',Arial, Helvetica, sans-serif;
     padding-top: 50px;
     font-variant: small-caps;
-    font-size: 10vW;
+    font-size: 5vW;
 }
 header > p{
     padding-bottom: 50px;
@@ -48,16 +48,17 @@ section{
     font-size: 3vW;
 }
 section.normal{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: rgb(14, 13, 13);
 }
 section.imagem{
     background-color: blue;
     color: chartreuse;
 }
 section.imagem > p{
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.281);
-    width: 400px;
     
 }
 footer{
